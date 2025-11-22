@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import TaskNav from './components/TaskNav'
-import MenuSection from './components/MenuSection'
+import MenuAll from './components/MenuAll'
 import Chatbot from './components/Chatbot'
 import Footer from './components/Footer'
 import SearchDialog from './components/SearchDialog'
@@ -15,7 +15,7 @@ function App() {
       <main>
         <Hero />
         <TaskNav />
-        <MenuSection />
+        <MenuAll />
         <Chatbot />
       </main>
       <Footer />
